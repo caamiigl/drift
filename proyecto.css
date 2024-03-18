@@ -1,0 +1,99 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno exterior */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp8pD8h4rN56Iluc8cGxYiLYOHjz8EQP0vMQ&usqp=CAU'); /* URL de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para el encabezado */
+header {
+    background-color: #E4F1FF; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 20px 0; /* Espaciado interno del encabezado */
+}
+
+/* Estilo para la barra de navegación */
+nav ul {
+    list-style-type: none; /* Elimina los marcadores de lista */
+    padding: 0; /* Elimina el relleno de la lista */
+    text-align: center; /* Alineación del texto al centro */
+    background-color: #E07F19; /* Color de fondo de la barra de navegación */
+    border-bottom: 2px solid #E07F19; /* Línea inferior */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin-right: 20px; /* Espacio entre los elementos de la lista */
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #12100D; /* Color del texto de los enlaces */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 16px; /* Tamaño de la fuente de los enlaces */
+}
+
+/* Estilo para las secciones de la página */
+section {
+    padding: 20px; /* Espacio interno */
+    margin-top: 20px; /* Espacio superior */
+    background-color: #E4F1FF; /* Color de fondo de las secciones */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #080A18; /* Color del texto dentro de las secciones */
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: #FFFBF2; /* Color de fondo del pie de página */
+    color: #fff; /* Color del texto del pie de página */
+    text-align: center; /* Alineación del texto al centro */
+    padding: 10px 0; /* Espaciado interno del pie de página */
+    font-size: 14px; /* Tamaño de la fuente del pie de página */
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Evita que la imagen se desborde de su contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+/* Estilo para los iframes */
+iframe {
+    display: block; /* Hace que el iframe sea un elemento de bloque */
+    margin: auto; /* Centra el iframe horizontalmente */
+}
+
+/* Estilo para los títulos de primer nivel */
+h1 {
+    
+    margin-bottom: 0px; /* Margen inferior */
+    margin-left: 1000px; /* Mover el título a la derecha */
+}
+
+/* Estilo para los títulos de segundo nivel */
+h2 {
+    font-size: 10px; /* Tamaño de la fuente */
+}
+
+/* Estilo para los títulos de tercer, cuarto, quinto y sexto nivel */
+h3, h4, h5, h6 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: #041373; /* Color del texto de los títulos */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 16px; /* Tamaño de la fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Espacio inferior */
+}

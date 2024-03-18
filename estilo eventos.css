@@ -1,0 +1,49 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno exterior */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp8pD8h4rN56Iluc8cGxYiLYOHjz8EQP0vMQ&usqp=CAU'); /* URL de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para las secciones de la página */
+section {
+    padding: 20px; /* Espacio interno */
+    margin-top: 20px; /* Espacio superior */
+    background-color: #E4F1FF; /* Color de fondo del cuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #080A18; /* Color del texto dentro de la sección */
+}
+
+/* Estilo para las imágenes */
+img {
+    display: block; /* Hace que la imagen sea un elemento de bloque */
+    margin: auto; /* Centra la imagen horizontalmente */
+    max-width: 100%; /* Evita que la imagen se desborde de su contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+/* Estilo para los iframes */
+iframe {
+    display: block; /* Hace que el iframe sea un elemento de bloque */
+    margin: auto; /* Centra el iframe horizontalmente */
+}
+
+/* Estilo para los títulos de segundo nivel */
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: #041373; /* Color del texto de los títulos */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 16px; /* Tamaño de la fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Espacio inferior */
+}

@@ -1,0 +1,59 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente principal */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno exterior */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp8pD8h4rN56Iluc8cGxYiLYOHjz8EQP0vMQ&usqp=CAU'); /* URL de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen de fondo para cubrir todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    color: #333; /* Color del texto */
+}
+
+/* Estilo para las secciones de la página */
+section {
+    padding: 20px; /* Espacio interno */
+    margin-top: 20px; /* Espacio superior */
+    background-color: #E4F1FF; /* Color de fondo del cuadro */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    color: #080A18; /* Color del texto dentro de la sección */
+}
+
+/* Estilo para el contenedor principal */
+.contenedor {
+  display: flex; /* Establece el contenedor como un contenedor flexible */
+  flex-direction: column; /* Establece la dirección de los elementos secundarios como columna */
+}
+
+/* Estilo para las filas dentro del contenedor */
+.fila {
+  display: flex; /* Establece las filas como contenedores flexibles */
+}
+
+/* Estilo para las columnas dentro de las filas */
+.columna {
+  flex: 1; /* Hace que las columnas se expandan para ocupar el espacio disponible */
+  margin: 0 10px; /* Espacio entre las columnas */
+}
+
+/* Estilo para la columna central */
+.columna-central {
+  flex-basis: 100%; /* Establece el tamaño base de la columna central */
+  text-align: center; /* Alinea el contenido al centro */
+  margin-top: 20px; /* Espacio superior */
+}
+
+/* Estilo para los títulos de segundo nivel y subtitulos */
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fuente */
+    font-weight: bold; /* Texto en negrita */
+    color: #041373; /* Color del texto de los títulos */
+    margin-bottom: 10px; /* Espacio inferior */
+}
+
+/* Estilo para los párrafos */
+p {
+    font-size: 16px; /* Tamaño de la fuente */
+    line-height: 1.6; /* Altura de línea */
+    margin-bottom: 15px; /* Espacio inferior */
+}
